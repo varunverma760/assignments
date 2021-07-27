@@ -1,0 +1,8 @@
+print("enter the value of principle")
+p=float(input())
+print("enter the value of rate")
+r=float(input())
+print("enter the value of time")
+t=float(input())
+ci=p*(pow((1+r/100),t))
+print(ci)
